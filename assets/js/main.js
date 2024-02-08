@@ -1,10 +1,9 @@
-/**
-* Template Name: NiceAdmin
-* Updated: Mar 09 2023 with Bootstrap v5.2.3
-* Template URL: https://bootstrapmade.com/nice-admin-bootstrap-admin-html-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
+/** 
+* =======================================================
+* Updated: Jan 08 2024
+* Author: Dexter Pogi
+* ========================================================
+*/ 
 (function() {
   "use strict";
 

@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>STU - Contact</title>
+  <title>STU - VAPT List of Systems</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -74,17 +74,17 @@
       </li>
 
       <li class="nav-item">
-        <a class="nav-link collapsed" data-bs-target="#charts-nav" data-bs-toggle="collapse" href="#">
+        <a class="nav-link" data-bs-target="#charts-nav" data-bs-toggle="collapse" href="#">
           <i class="bi bi-bar-chart"></i><span>VAPT</span><i class="bi bi-chevron-down ms-auto"></i>
         </a>
-        <ul id="charts-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
+        <ul id="charts-nav" class="nav-content collapse show" data-bs-parent="#sidebar-nav">
           <li>
             <a href="vapt-status.html">
               <i class="bi bi-circle"></i><span>Status</span>
             </a>
           </li>
           <li>
-            <a href="vapt-systems-list.html">
+            <a href="vapt-systems-list.html" class="active">
               <i class="bi bi-circle"></i><span>List of Systems</span>
             </a>
           </li>
@@ -99,7 +99,7 @@
       </li>
 
       <li class="nav-item">
-        <a class="nav-link " href="pages-contact.html">
+        <a class="nav-link collapsed" href="pages-contact.html">
           <i class="bi bi-envelope"></i>
           <span>Contact</span>
         </a>
@@ -126,96 +126,121 @@
   <main id="main" class="main">
 
     <div class="pagetitle">
-      <h1>Contact</h1>
+      <h1>List of Systems</h1>
       <nav>
         <ol class="breadcrumb">
           <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-          <!-- <li class="breadcrumb-item">Pages</li> -->
-          <li class="breadcrumb-item active">Contact</li>
+          <li class="breadcrumb-item">VAPT</li>
+          <li class="breadcrumb-item active">List of Systems</li>
+          <!-- <li class="breadcrumb-item active">Data</li> -->
         </ol>
       </nav>
     </div>
 
-    <section class="section contact">
+    <section class="section">
+      <div class="row">
+        <div class="col-lg-12">
 
-      <div class="row gy-4">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Datatables</h5>
+              <p>Below are the list of systems needed for security assessment.</p>
 
-        <div class="col-xl-6">
+              <table class="table datatable">
+                <thead>
+                  <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">System</th>
+                    <th scope="col">System Owner</th>
+                    <th scope="col">Open Issues</th>
+                    <th scope="col">Last Update</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">1</th>
+                    <td>PW</td>
+                    <td>PSA</td>
+                    <td>4</td>
+                    <td>2024-02-01</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">2</th>
+                    <td>Fal</td>
+                    <td>PSA</td>
+                    <td>3</td>
+                    <td>2024-02-05</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">3</th>
+                    <td>MVS</td>
+                    <td>IVD</td>
+                    <td>3</td>
+                    <td>2024-02-03</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">4</th>
+                    <td>MAS</td>
+                    <td>IVD</td>
+                    <td>0</td>
+                    <td>2024-02-06</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">5</th>
+                    <td>DE</td>
+                    <td>ISMD</td>
+                    <td>2</td>
+                    <td>2024-02-07</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">6</th>
+                    <td>PC</td>
+                    <td>ISMD</td>
+                    <td>2</td>
+                    <td>2024-02-02</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">7</th>
+                    <td>TAKDA</td>
+                    <td>ISMD</td>
+                    <td>1</td>
+                    <td>2024-02-01</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">8</th>
+                    <td>IDAS</td>
+                    <td>GSUCD</td>
+                    <td>8</td>
+                    <td>2024-02-06</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">9</th>
+                    <td>AS</td>
+                    <td>ISMD</td>
+                    <td>3</td>
+                    <td>2024-02-08</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">10</th>
+                    <td>MA</td>
+                    <td>ISMD</td>
+                    <td>0</td>
+                    <td>2024-02-01</td>
+                  </tr>
+                </tbody>
+              </table>
+              <!-- End Table with stripped rows -->
 
-          <div class="row">
-            <div class="col-lg-6">
-              <div class="info-box card">
-                <i class="bi bi-geo-alt"></i>
-                <h3>Address</h3>
-                <p>Brgy. Pinyahan,<br>Quezon City, NCR 1100</p>
-              </div>
-            </div>
-            <div class="col-lg-6">
-              <div class="info-box card">
-                <i class="bi bi-telephone"></i>
-                <h3>Call Us</h3>
-                <p>+63 912 345 6789<br>+63 998 765 4321</p>
-              </div>
-            </div>
-            <div class="col-lg-6">
-              <div class="info-box card">
-                <i class="bi bi-envelope"></i>
-                <h3>Email Us</h3>
-                <p>info@example.com<br>contact@example.com</p>
-              </div>
-            </div>
-            <div class="col-lg-6">
-              <div class="info-box card">
-                <i class="bi bi-clock"></i>
-                <h3>Office Hours</h3>
-                <p>Monday - Friday<br>8:00AM - 05:00PM</p>
-              </div>
             </div>
           </div>
 
         </div>
-
-        <div class="col-xl-6">
-          <div class="card p-4">
-            <form action="forms/contact.php" method="post" class="php-email-form">
-              <div class="row gy-4">
-
-                <div class="col-md-6">
-                  <input type="text" name="name" class="form-control" placeholder="Your Name" required>
-                </div>
-
-                <div class="col-md-6 ">
-                  <input type="email" class="form-control" name="email" placeholder="Your Email" required>
-                </div>
-
-                <div class="col-md-12">
-                  <input type="text" class="form-control" name="subject" placeholder="Subject" required>
-                </div>
-
-                <div class="col-md-12">
-                  <textarea class="form-control" name="message" rows="6" placeholder="Message" required></textarea>
-                </div>
-
-                <div class="col-md-12 text-center">
-                  <div class="loading">Loading</div>
-                  <div class="error-message"></div>
-                  <div class="sent-message">Your message has been sent. Thank you!</div>
-
-                  <button type="submit">Send Message</button>
-                </div>
-
-              </div>
-            </form>
-          </div>
-
-        </div>
-
       </div>
-
     </section>
 
-  </main>
+  </main><!-- End #main -->
 
+  <!-- ======= Footer ======= -->
   <footer id="footer" class="footer">
     <div class="copyright">
       &copy; Copyright 2024. All Rights Reserved
@@ -223,7 +248,7 @@
     <div class="credits">
       Designed by <a href="#">STU Hackerman</a>
     </div>
-  </footer>
+  </footer><!-- End Footer -->
 
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
