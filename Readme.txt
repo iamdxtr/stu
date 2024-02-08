@@ -1,4 +1,4 @@
-Thanks for downloading this template!
+Welcome to STU!
 
 Template Name: NiceAdmin
 Template URL: https://bootstrapmade.com/nice-admin-bootstrap-admin-html-template/
